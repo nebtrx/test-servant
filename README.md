@@ -13,6 +13,6 @@ stack exec example-servant-persistent
 Then you can query the server from a separate shell:
 
 ``` bash
-curl -H 'Content-type: application/json' localhost:3000/user/add --data '{"name": "Alice", "age": 42}'
-curl -H 'Content-type: application/json' localhost:3000/user/get/Alice
+curl -H 'Content-type: application/json' localhost:6666/user/add --data '{"name": "Alice", "age": 42}'
+curl -H 'Content-type: application/json' localhost:6666/user/get/Alice
 ```
